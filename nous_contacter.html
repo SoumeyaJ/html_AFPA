@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nous contacter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="image_afpa/logo.jpeg" alt="Logo Afpa">
+    <nav>
+        <a href="accueil.html">Accueil</a>
+        <a href="la_formation.html">La formation</a>
+        <a href="temoignages.html">Temoignages</a>
+        <a href="nos_references.html">Nos références</a>
+        <a href="nous_contacter.html">Nous contacter</a>
+        <label for="site-search">rechercher:</label>
+        <input type="text" id="site-search" name="q">
+        <button>Search</button>
+    </nav>
+
+</header>
+
+<form>
+  <h1>Contactez-nous</h1>
+  <div>
+    <label for="name">Prénom, Nom:</label>
+    <input type="text" id="name" name="name" required>
+  </div>
+  <div>
+    <label for="email">Votre adresse mail:</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+  <div>
+    <label for="phone">Votre téléphone:</label>
+    <input type="tel" id="phone" name="phone">
+  </div>
+  <div>
+    <label>Vous êtes:</label>
+    <br>
+    <input type="radio" id="student" name="status" value="student">
+    <label for="student">Étudiant</label>
+    <br>
+    <input type="radio" id="worker" name="status" value="worker">
+    <label for="worker">Travailleur</label>
+    <br>
+    <input type="radio" id="other" name="status" value="other">
+    <label for="other">Autre</label>
+  </div>
+
+<div>
+      <label>Vos modalités pédagogiques préfèrées:</label>
+      <br>
+      <input type="radio" name="pref" id="for" value="student" checked="checked">
+      <label for="for">Formation en présentiel</label>
+      <br>
+      <input type="radio" name="pref" id="dis" value="worker">
+      <label for="dis">100% à distance</label>
+      <br>
+      <input type="radio" name="pref" id="altern" value="other">
+      <label for="altern">Alternance</label>
+      <br>
+      <input type="radio" name="pref" id="padefref" value="other">
+      <label for="padefref">Pas de préférences</label>
+    </div>
+  <div>
+      <label for="region">Vous êtes résident de la région:</label>
+      <select name="region" id="region">
+        <optgroup label="France">
+          <option value="idf">Île-de-France</option>
+          <option value="occ">Occitanie</option>
+          <option value="bre">Bretagne</option>
+        </optgroup>
+        <optgroup label="Autre">
+          <option value="other">Autre pays/région</option>
+        </optgroup>
+      </select>
+  </div>
+  <div>
+    <label for="message">Votre message:</label>
+    <br>
+    <textarea id="message" name="message" rows="5" cols="30"></textarea>
+  </div>
+  <br>
+  <button type="submit">Envoyer</button>
+  <button type="reset">Réinitialiser</button>
+</form>

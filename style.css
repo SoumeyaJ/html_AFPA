@@ -1,0 +1,176 @@
+@font-face {
+        font-family: Gotham;
+        src: url(./GothamBook.ttf);
+}
+
+html {
+        background-image: url(image_afpa/A3-1920.jpg);
+        color: white;
+}
+
+/*page index*/
+
+header {
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 3px solid #52085a;
+}
+
+header nav {
+        list-style: none;
+        margin: 0;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+}
+
+header nav a {
+        float: left;
+        color: #78BE20;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+}
+
+header nav a:hover {
+        background-color: #147415;
+}
+
+header a.active {
+        background-color: #04AA6D;
+        color: white;
+}
+
+.cta {
+        display: flex;
+        padding: 10px;
+        background-color: #78BE20;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 20px;
+        text-decoration: none;
+        text-align: center;
+        clear: left;
+        margin-top: 90px;
+        margin-left: 450px;
+        margin-bottom: 100px;
+        max-width: 200px;
+        font-size: 25px;
+        align-items: center;
+}
+
+h1{
+        color: #19b97c;
+}
+h2 {
+
+        color: rgb(16, 201, 25);
+}
+h3 {
+        color: white;
+}
+
+/*page accueil*/
+
+.bouton {
+        display: flex;
+        padding: 10px;
+        background-color: #78BE20;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 20px;
+        text-decoration: none;
+        text-align: center;
+        clear: left;
+        margin-top: 90px;
+        margin-left: 600px;
+        margin-bottom: 100px;
+        max-width: 200px;
+        font-size: 25px;
+}
+
+
+h4{
+      color: rgb(0, 161, 51); 
+}
+/* page la formation */
+
+
+.bouton {
+        display: flex;
+        padding: 10px;
+        background-color: #78BE20;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 20px;
+        text-decoration: none;
+        text-align: center;
+        clear: left;
+        margin-top: 90px;
+        margin-left: 600px;
+        margin-bottom: 100px;
+        max-width: 200px;
+        font-size: 25px;
+}
+
+/*page la formation*/
+
+.colonnea {
+        float: left;
+        width: 30%;
+        margin: 1em;
+        
+}
+
+/* la page témoignages*/
+.conteneur img {
+
+        width: 90px;
+        margin: 90px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto    
+}
+.colonne {
+
+        float: left;
+        width: 30%;
+        margin: 1em;
+        border: 2px solid #c657eb;
+        background-color: rgba(49, 6, 49, 0.389)
+}
+               
+
+/*page références*/
+.logoentreprise {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+       
+}
+.logoentreprise img {
+        width: 80px;
+        margin: 92px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto
+}
+
+/* page nous-contacter*/
+form{
+        margin-left: 30px;
+        margin-top: 150px;
+        background-color: rgba(58, 4, 64, 0.575);
+        border-radius: 10px;
+        padding: 30px
+      }
+      
+     
+      
